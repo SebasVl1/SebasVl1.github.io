@@ -1,0 +1,86 @@
+
+/*Archivo de estilos*/
+/*Estilos letras*/
+
+h1
+{
+	letter-spacing: 5px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 32;
+	color: #f012f0;
+	text-shadow: 4px 0px 1px black;
+}
+
+h4
+{
+	letter-spacing: 1px;
+	font-family: Comic Sans MS;
+	font-style: bond;
+	font-size: 26;
+	color:  Blue;
+	text-shadow: 4px 0px 1px gray;
+}
+
+h2
+{
+	letter-spacing: 6px;
+	font-style: italic;
+	font-size: 40;
+	color: White;
+}
+h3
+{
+	letter-spacing: 2px;
+	font-style:Comic Sans MS;
+	font-size:20;
+	text-decoration: underline;
+	color: red;
+}
+
+h5
+{
+	letter-spacing: 1.5px;
+	font-family: Comic Sans MS;
+	font-style: Bond;
+	font-size:22;
+	color: #01ff94;
+	line-height:0.5;
+	text-shadow: 4px 0px 1px black;
+}
+
+body.Color1
+{
+	text-align:center;
+	background-image: url("../Imagenes/Cielo-1.jpg");
+	background-size: cover;
+}
+
+/*Divisiones*/
+
+div.FDiv1
+{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	border: 5px solid black;
+	background-image: url("../Imagenes/Fondo-1.jpg");
+	background-size: cover;
+	width: 1000px;
+	height: 400px;
+	overflow: scroll;
+	text-align: center;
+	color: blue;
+	font-style: italic;
+	font-size: 16;
+}
+.Div-2{
+	position: absolute;
+	top: 700px;
+	left: 400px;
+	height:"";
+	width:"";
+	text-align:center;
+	background-color:gray;
+	border: 5px solid black;
+}
