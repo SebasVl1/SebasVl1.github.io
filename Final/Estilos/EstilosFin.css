@@ -153,7 +153,7 @@ body.Fin{
 	align-items: center;
 	text-align:center;
 	overflow-x:hidden;
-	background-image: url("../Imagenes/Fondo-2.jpg");
+	background-image: url("../Fondo-2.jpg");
 	background-size: cover;
 	margin: 60px 200px;
 }
@@ -168,7 +168,7 @@ body.Fin{
 
 body.body-3{
 	text-align:center;
-	background-image: url("../Imagenes/Fondo-Inv.jpg");
+	background-image: url("../Fondo-Inv.jpg");
 	background-size: cover;
 	margin:50px 100px;
 	border: green 4px solid;
@@ -182,7 +182,7 @@ body.body-3{
 	width:"";
 	border: red solid;
 	/*background-color:white;*/
-	background-image: url(../Imagenes/PC.jpg);
+	background-image: url(../PC.jpg);
 	background-size: cover;
 }
 
@@ -200,7 +200,7 @@ body.body-3{
 	width:"";
 	border: red;
 	/*background-color:white;*/
-	background-image: url(../Imagenes/Lago.jpg);
+	background-image: url(../Lago.jpg);
 	background-size: cover;
 	overflow-x:hidden;
 }
