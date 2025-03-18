@@ -1,0 +1,303 @@
+
+
+h1.A1{
+	font-style: blond;
+	font-family: Tahoma;
+	font-size: 56;
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h1.A2{
+	font-style: blond;
+	font-family: Tahoma;
+	font-size: 56;
+	color: white;
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h1.A3{
+	font-size: 48;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}	
+
+h1.A4{
+	font-size: 48;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	color: yellow;
+	animation-duration: 3s;
+  animation-name: slidein;
+}	
+
+
+h2.B1{
+	font-size: 46;
+	font-family:cursive;
+	text-shadow: #4186f0 4px 0 20px
+}
+
+h2.B2{
+	font-size: 46;
+	font-family:cursive;
+}
+
+h2.B3{
+	font-size: 46;
+	font-family:cursive;
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h2.B4{
+	font-size: 46;
+	font-family:cursive;
+	animation-duration: 7s;
+  animation-name: slidein;
+}
+
+h3.C2{
+	font-size: 32;
+	font-family:sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h4{ 
+	font-size: 24;
+	font-family:cursive;
+	font-weight:bold;
+	
+}
+
+h4.D1-1{ 
+	font-size: 24;
+	font-family:cursive;
+	font-weight:bold;
+	animation-duration: 6s;
+	animation-name: slidein;
+	
+}
+
+h4.D1{
+	font-size:28;
+	font-family:cursive;
+	font-style: italic;
+}
+
+
+h5.E2{
+	font-family: Verdana;
+	font-size:24;
+	animation-duration: 6s;
+	animation-name: slidein;
+}
+
+h5.E3{
+	font-size: 30;
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h5.E4{
+	font-size: 30;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h5.E5{
+	font-family: Verdana;
+	font-size:24;
+	animation-duration: 6s;
+	animation-name: slidein;
+	color: green;
+	
+}
+
+
+h6.F2{
+	font-size: 48;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+
+h6.F3{
+	font-size: 18;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	margin: 1px;
+	color: #ff0303;
+}
+h6.F4{
+	font-size: 18;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	margin: 1px;
+	color: blue;
+}
+/*-----------------------BODYS-----------------------*/
+body.Fin{
+	margin: 50px 90px;
+	align-items: center;
+	text-align:center;
+	overflow-x:hidden;
+	background: linear-gradient(75deg, #1073c5, #9102bb, gold);
+}
+
+
+.body-2{
+	align-items: center;
+	text-align:center;
+	overflow-x:hidden;
+	background-image: url("../Imagenes/Fondo-2.jpg");
+	background-size: cover;
+	margin: 60px 200px;
+}
+
+.body-1{
+	align-items: center;
+	text-align:center;
+	overflow-x:hidden;
+	background: linear-gradient(105deg, #5a2ed8, #0ec908, #49d6a5, #367dce, #e8a947);
+	margin:50px 100px;
+}
+
+body.body-3{
+	text-align:center;
+	background-image: url("../Imagenes/Fondo-Inv.jpg");
+	background-size: cover;
+	margin:50px 100px;
+	border: green 4px solid;
+
+}
+
+/*-----------------------------Divisiones------------------*/
+
+.Div-1{
+	height:"";
+	width:"";
+	border: red solid;
+	/*background-color:white;*/
+	background-image: url(../Imagenes/PC.jpg);
+	background-size: cover;
+}
+
+
+.Div-2{
+	height:"";
+	width:"";
+	border: red solid;
+	background: linear-gradient(185deg, #0f225a, black);
+	background-size: cover;
+}
+
+.Div-3{
+	height:"";
+	width:"";
+	border: red;
+	/*background-color:white;*/
+	background-image: url(../Imagenes/Lago.jpg);
+	background-size: cover;
+	overflow-x:hidden;
+}
+
+.Div-M{
+	height:"";
+	width:"";
+	text-align:center;
+	background: ;
+	float:right;
+	border: black solid;
+}
+
+
+
+
+/*----------------------------Tablas--------------------------------*/
+.Tab-1{
+	border: 5px solid ;
+	background: linear-gradient(105deg, #3da6f9, #d6aa20);
+	/*background-image: url(../Imagenenes/FondoF-1.jpg);*/
+	/*border-collapse: collapse;
+	background-size:cover;
+	background-repeat:no-repeat;*/
+
+		animation-duration: 3s;
+  animation-name: slidein;
+}
+
+th, td{
+	width:25%;
+	text-align:center;
+	border: 2px solid;
+	/*background:;*/	
+}
+
+p{
+	animation-duration: 3s;
+	animation-name: slidei3;
+}
+
+@keyframes slidein {
+	/*Cuando la ventana no esta maximisada el comportamiento es extraño, la pagina se desplaza */
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein2 {
+	/*Cuando la ventana no esta maximisada el comportamiento es extraño, la pagina se desplaza */
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein3 {
+	/*Cuando la ventana no esta maximisada el comportamiento es extraño, la pagina se desplaza */
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+/*-------------------------BOTONES----------------------------*/
+
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+
+.my-button:active {
+  background-color: #3e8e41;
+}
